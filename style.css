@@ -164,6 +164,20 @@ body {
     font-weight: 400;
 }
 
+@media screen and (max-width: 375px) {
+    .card {
+        padding: 30px;
+    }
+    .card > .footer img  {
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .card > .footer  {
+        height: 40px;
+    }
+}
+
 
 
 
